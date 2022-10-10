@@ -46,7 +46,7 @@
         .row
           .col-xl-4.mb-4.mb-mb-0
             h4 Organizacional
-            p Actividades que incluyen animación para pausas activas en el trabajo o actividades indoor y outdoor para desarrollo personal de los empleados.
+            p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i ] para desarrollo personal de los empleados.
           .col-xl-8
             figure
               img(src='@/assets/curso/tema2/img4.png')
@@ -113,6 +113,21 @@
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-12
+            img(src='@/assets/curso/tema2/img12.png' alt='AvatarTop' style="width: 350px").m-auto
+        p.text-center La necesidad de planificar y programar.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/img13.png' alt='AvatarTop' style="width: 350px").m-auto
+        p.text-center Organizar el personal, las técnicas, el espacio donde se ejecutarán las acciones.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-12
+            img(src='@/assets/curso/tema2/img14.png' alt='AvatarTop' style="width: 350px").m-auto
+        p.text-center Coordinación del programa de animación y las personas a cargo.
+      .tarjeta.color-secundario.p-4
+        .row.justify-content-center.mb-3
+          .col-12
             img(src='@/assets/curso/tema2/img7.png' alt='AvatarTop' style="width: 350px").m-auto
         p.text-center Selección de los animadores con perfiles estructurados.
       .tarjeta.color-secundario.p-4
@@ -135,21 +150,6 @@
           .col-12
             img(src='@/assets/curso/tema2/img11.png' alt='AvatarTop' style="width: 350px").m-auto
         p.text-center Evidencias de los logros.
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/img12.png' alt='AvatarTop' style="width: 350px").m-auto
-        p.text-center La necesidad de planificar y programar.
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/img13.png' alt='AvatarTop' style="width: 350px").m-auto
-        p.text-center Organizar el personal, las técnicas, el espacio donde se ejecutarán las acciones.
-      .tarjeta.color-secundario.p-4
-        .row.justify-content-center.mb-3
-          .col-12
-            img(src='@/assets/curso/tema2/img14.png' alt='AvatarTop' style="width: 350px").m-auto
-        p.text-center Coordinación del programa de animación y las personas a cargo.
     .row.bg-color6.mb-4
       .col-12.p-5
         .row.align-items-center
@@ -250,7 +250,8 @@
               | Bolsas grandes y pequeñas.
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
-              | Dulces o souvenirs para premiación.
+              | 
+              p.mb-0 Dulces o #[i souvenirs] para premiación.
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
               | Contar con traductor de lengua de señas en caso de requerirse.

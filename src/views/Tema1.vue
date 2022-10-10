@@ -217,7 +217,7 @@
                 p #[b “Es posible que la tendencia más recurrente y significativa en el mundo actual sea la demanda de ‘viajes experienciales’, específicamente orientados a transmitir la idea de un turismo más inmersivo, local, auténtico, aventurero y/o activo”.]
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
-                p.mb-0 - Peak Adventure Travel Group y Skift Team (2014, p. 7)
+                p.mb-0 #[em - Peak Adventure Travel Group y Skift Team (2014, p. 7)]
           .col-lg-6
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
@@ -225,7 +225,7 @@
                 p #[b Hoy, en Europa, se observa un creciente movimiento hacia una economía de la experiencia, en la cual los consumidores buscan productos y servicios cada vez más únicos y exclusivos. Este movimiento es particularmente notorio en turismo, mercado en el que, cada vez más, los viajeros europeos buscan experiencias únicas y exclusivas que generen recuerdos duraderos.]
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
-                p.mb-0 - Centre for the Promotion of Imports (2015, p. 2)
+                p.mb-0 #[em - Centre for the Promotion of Imports (2015, p. 2)]
         p.mb-5 Claramente, las experiencias turísticas llegan a agregar valor a los productos y los destinos, y no importa qué tipología de turismo se desarrolle, incluir experiencias se hará necesario a la hora de diferenciarse de la competencia.
         hr.mb-5
         .row.mb-5
@@ -309,12 +309,12 @@
               img(src='@/assets/curso/tema1/img21.png', style="width: 450px").m-auto
           .col-lg-8
             p.mb-4 #[b.txt-color1 Información precisa]
-            p Otro factor fundamental para el diseño de la experiencia es contar con la mayor cantidad de información de acuerdo con la experiencia que se va a diseñar, datos históricos, culturales, de flora y fauna van a alimentar el hilo conductor de las historias que se quieren contar y las sensaciones que se quieren transmitir, se debe tener en cuenta que dentro de las experiencias los relatos juegan un papel relevante. La información debe venir de diferentes fuentes de información, y en este caso, las fuentes primarias, como los habitantes de la misma región, ayudarán mucho para lograr este objetivo. La información recolectada y sistematizada ayudará no solo al diseño de la experiencia, sino que se puede usar en planes de interpretación o en técnicas como el storytelling que ayuda a la promoción y posicionamiento de los destinos.
+            p Otro factor fundamental para el diseño de la experiencia es contar con la mayor cantidad de información de acuerdo con la experiencia que se va a diseñar, datos históricos, culturales, de flora y fauna van a alimentar el hilo conductor de las historias que se quieren contar y las sensaciones que se quieren transmitir, se debe tener en cuenta que dentro de las experiencias los relatos juegan un papel relevante. La información debe venir de diferentes fuentes de información, y en este caso, las fuentes primarias, como los habitantes de la misma región, ayudarán mucho para lograr este objetivo. La información recolectada y sistematizada ayudará no solo al diseño de la experiencia, sino que se puede usar en planes de interpretación o en técnicas como el #[i storytelling] que ayuda a la promoción y posicionamiento de los destinos.
         hr.mb-5
         .row.mb-5
           .col-lg-8.mb-4.mb-lg-0
             p.mb-4 #[b.txt-color1 Redes sociales]
-            p No se puede desconocer que como hay tendencias para viajar, también es una realidad de cómo las personas buscan información y compran los servicios y las experiencias turísticas; se debe pensar seriamente en cómo se va a promocionar la experiencia que se diseñe y esto tiene que ver con factores como la identificación de los segmentos de mercado a los cuales va dirigida la experiencia. Hoy, manejar la promoción por medio de las redes es indispensable para la visibilización de los destinos, se debe entender que redes como Facebook, Instagram, aplicaciones como WhatsApp, un blog o una página web tienen cada una sus particularidades, formas de ser consultadas y diferentes públicos, por esta razón, es necesario contar con el conocimiento o tener a alguien capacitado que lo pueda hacer de forma profesional para obtener mejores resultados a la hora de comercializar la experiencia.
+            p No se puede desconocer que como hay tendencias para viajar, también es una realidad de cómo las personas buscan información y compran los servicios y las experiencias turísticas; se debe pensar seriamente en cómo se va a promocionar la experiencia que se diseñe y esto tiene que ver con factores como la identificación de los segmentos de mercado a los cuales va dirigida la experiencia. Hoy, manejar la promoción por medio de las redes es indispensable para la visibilización de los destinos, se debe entender que redes como #[i Facebook], #[i Instagram], aplicaciones como #[i WhatsApp], un #[i blog] o una página #[i web] tienen cada una sus particularidades, formas de ser consultadas y diferentes públicos, por esta razón, es necesario contar con el conocimiento o tener a alguien capacitado que lo pueda hacer de forma profesional para obtener mejores resultados a la hora de comercializar la experiencia.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema1/img22.png', style="width: 450px").m-auto
@@ -359,7 +359,6 @@
               img(src='@/assets/curso/tema1/img26.png', style="width: 450px").m-auto
           .col-lg-8
             p.mb-4 #[b.txt-color1 Gastronomía local]
-            p Si una experiencia debe ser auténtica, un elemento que merece un paso aparte es el incluir la gastronomía local dentro de las experiencias; la comida es un factor de identidad y un gran motivador de los viajes, e incluirlo le dará un toque diferencial a la actividad; se debe tener en cuenta que, al incluir la gastronomía local, por más tradicional que sea, debe cumplir también con las buenas prácticas de manipulación de alimentos; el que sea tradicional y auténtica no implica que se ponga en riesgo la seguridad de los turistas.
             p Si una experiencia debe ser auténtica, un elemento que merece un paso aparte es el incluir la gastronomía local dentro de las experiencias; la comida es un factor de identidad y un gran motivador de los viajes, e incluirlo le dará un toque diferencial a la actividad; se debe tener en cuenta que, al incluir la gastronomía local, por más tradicional que sea, debe cumplir también con las buenas prácticas de manipulación de alimentos; el que sea tradicional y auténtica no implica que se ponga en riesgo la seguridad de los turistas.
         hr.mb-5
         .row.mb-4
@@ -439,7 +438,7 @@
               img(src='@/assets/curso/tema1/img32.png', style="width: 450px").m-auto
           .col-lg-8
             p.mb-4 #[b.txt-color1 Recordatorios locales]
-            p El recordatorio o souvenir debe convertirse en un elemento integral de la misma experiencia turística, debe darle valor a la misma, debe ser auténtico, debe ser personalizado y, lo más importante, debe generar recordación y un vínculo emocional con el destino. El recordatorio puede ir desde una artesanía que el mismo turista elaboró en un taller hasta la siembra de un árbol, el cual llevará el nombre del turista que lo sembró; estos son apenas dos ejemplos de lo que puede ser el recordatorio, pero, de acuerdo con la identidad y diseño de la experiencia, se pueden tener múltiples opciones. 
+            p El recordatorio o #[i souvenir] debe convertirse en un elemento integral de la misma experiencia turística, debe darle valor a la misma, debe ser auténtico, debe ser personalizado y, lo más importante, debe generar recordación y un vínculo emocional con el destino. El recordatorio puede ir desde una artesanía que el mismo turista elaboró en un taller hasta la siembra de un árbol, el cual llevará el nombre del turista que lo sembró; estos son apenas dos ejemplos de lo que puede ser el recordatorio, pero, de acuerdo con la identidad y diseño de la experiencia, se pueden tener múltiples opciones. 
             p Tener en cuenta que:  no se debe tomar como un elemento aislado u obvio dentro del diseño de una experiencia turística.
         p.mb-5 Tener en cuenta los pasos para preparar la ejecución de la experiencia determinará en gran medida el éxito de esta, entre más información y más detalle se ponga en esta fase, se tendrán mejores elementos a la hora de diseñar las actividades.  Una vez se haya realizado la verificación de esta fase, se deben establecer los últimos pasos, que corresponden a la fase de evaluación.
         hr.mb-5

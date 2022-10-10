@@ -27,7 +27,7 @@
         .col-lg-8.mb-4.mb-lg-0
           p La #[b satisfacción] es un estado del cerebro provocado por una mayor o menor optimización de la retroalimentación cerebral, donde diferentes regiones compensan su potencial energético, dando la sensación de plenitud y armonía.
           p La práctica de turismo experiencial genera #[b satisfacción] o #[b experiencia positiva], el cerebro genera dopamina, un neurotransmisor que activa los circuitos de recompensa, provocando satisfacción y que el cliente quiera repetir esa conexión neuronal (sinapsis) para volver a generar dopamina.
-          p Esto se usa en neuromarketing para atraer al cliente.
+          p Esto se usa en #[i neuromarketing] para atraer al cliente.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema3/img1.png', style="width: 450px").m-auto
