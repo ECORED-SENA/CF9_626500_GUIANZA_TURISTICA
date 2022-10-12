@@ -46,7 +46,7 @@
         .row
           .col-xl-4.mb-4.mb-mb-0
             h4 Organizacional
-            p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i ] para desarrollo personal de los empleados.
+            p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i outdoor] para desarrollo personal de los empleados.
           .col-xl-8
             figure
               img(src='@/assets/curso/tema2/img4.png')
