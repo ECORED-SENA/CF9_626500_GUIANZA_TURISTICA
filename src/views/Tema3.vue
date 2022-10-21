@@ -3,44 +3,44 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#FFF") 3
       h1 Actividades experienciales
     p.mb-5 La animación se estructura con base en técnicas y métodos propios de la recreación y está relacionada con dinámicas de grupo que se aplican perfectamente en los contextos turísticos de:
     .row.justify-content-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Satisfacción]
-      .col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Significado]
     p.mb-5 Esto es una revolución, porque el cliente está dispuesto a pagar por un intangible: la transformación y significado que obtiene de aquello que hace cuando viaja. Desde la teoría del cerebro, se explica toda acción experiencial desde los términos señalados:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Satisfacción")
-        .col-lg-8.mb-4.mb-lg-0
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-right")
+      .row.justify-content-center(titulo="Satisfacción")
+        .col-lg-7.mb-4.mb-lg-0
           p La #[b satisfacción] es un estado del cerebro provocado por una mayor o menor optimización de la retroalimentación cerebral, donde diferentes regiones compensan su potencial energético, dando la sensación de plenitud y armonía.
           p La práctica de turismo experiencial genera #[b satisfacción] o #[b experiencia positiva], el cerebro genera dopamina, un neurotransmisor que activa los circuitos de recompensa, provocando satisfacción y que el cliente quiera repetir esa conexión neuronal (sinapsis) para volver a generar dopamina.
           p Esto se usa en #[i neuromarketing] para atraer al cliente.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema3/img1.png', style="width: 450px").m-auto
-      .row(titulo="Significado")
-        .col-lg-8.mb-4.mb-lg-0
+      .row.justify-content-center(titulo="Significado")
+        .col-lg-7.mb-4.mb-lg-0
           p El #[b significado] es la valoración de algo, se considera uno de los vectores de motivación humana relevante.
           p El significado para el turista se obtiene en el viaje a través de las vivencias, entre otras razones, porque abre la puerta al conocimiento de uno mismo y del otro, lo que permite crecer como individuo. 
           p El significado también se relaciona con las #[b emociones] y con el interés de ofrecer en el mercado la #[b “experiencia única”], basada en dos preceptos:  alejarse de lo cotidiano y crear recuerdos memorables; “se pretende que el participante piense que difícilmente podrá repetir exactamente esa misma experiencia y que ha sido privilegiado de una manera especial”.
         .col-lg-4
           figure
             img(src='@/assets/curso/tema3/img2.png', style="width: 450px").m-auto
-    p.text-center.mb-5 Y para diseñar actividades de experiencia en el turismo, se aconseja tener en cuenta sus características:
-    .row.mb-5
+    p.text-center.mb-5(data-aos="fade-up") Y para diseñar actividades de experiencia en el turismo, se aconseja tener en cuenta sus características:
+    .row.mb-5(data-aos="fade-left")
       .col-lg-9.mb-4.mb-lg-0
         TabsA.color-acento-botones
           .tarjeta.color-acento-botones.p-4(titulo="Sentidos")
@@ -66,10 +66,30 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2]. #[i Momentos para generar experiencias positivas]
-        figure
-          img(src='@/assets/curso/tema3/img5.svg')
+        .row.justify-content-evenly
+          .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+            .row.h-100
+              .col-12.p-4.bg-color16
+                figure
+                  img(src='@/assets/curso/tema3/img5.svg', style="width: 100px").m-auto
+              .col-12.p-3.bg-color17
+                p.text-center.mb-0 #[b Antes]: expectativas y motivación del viajero
+          .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
+            .row.h-100
+              .col-12.p-4.bg-color16
+                figure
+                  img(src='@/assets/curso/tema3/img15.svg' style="width: 140px; height: 210px").m-auto
+              .col-12.p-3.bg-color17
+                p.text-center.mb-0 #[b Durante]: percepción e interpretación
+          .col-10.col-md-7.col-lg-3(data-aos="fade-left")
+            .row.h-100
+              .col-12.p-4.bg-color16
+                figure
+                  img(src='@/assets/curso/tema3/img16.svg', style="width: 110px").m-auto
+              .col-12.p-3.bg-color17
+                p.text-center.mb-0 #[b Después]: recordacion y satisfacción
     p.mb-5 Finamente, al diseñar actividades de experiencia para viajeros, SERNATUR (2017) define los siguientes pasos en el proceso:
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")
       .tarjeta-avatar
         img(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
         .tarjeta.color-primario2

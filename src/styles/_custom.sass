@@ -101,6 +101,46 @@
   background-image: url(../assets/curso/tema3/img4.svg)
   background-size: cover
 
+.avatar
+  position: absolute
+  bottom: 0
+  right: -4rem
+  z-index: 1
+  @media (max-width: 1000px)
+    display: none
+
+.crd--avatarHorizontal
+  position: relative
+  padding-right: 20rem
+  left: -10%
+  & > *
+    position: relative
+  h5 
+    color: #12263F
+  p 
+    margin-bottom: 0
+  &::before  
+    position: absolute 
+    content: ''
+    top: 0
+    right: 0
+    width: calc( 100% - 60px)
+    height: 100%
+    background-color: #FFDC7B
+
+  @media (max-width: 1000px)
+    padding-right: 2rem
+    left: 0%
+
+.crd--first
+  &::before 
+    border-top-left-radius: 30px
+    background-color: #FFE6A1 !important
+.crd--last
+  &::before 
+    border-bottom-left-radius: 30px
+    background-color: #FFD667 !important
+
 .bg-color1
   background-image: url(../assets/curso/tema1/img5.svg)
   margin-inline: -3.2rem !important
@@ -171,6 +211,26 @@
   background-image: url(../assets/curso/tema5/img9.svg)
   background-position: top
   background-repeat: no-repeat
+
+.bg-color14
+  background-image: url(../assets/curso/intro/img1.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color15
+  background-image: url(../assets/curso/tema2/img10.svg)
+  margin-inline: -3.2rem !important
+  background-repeat: no-repeat
+
+.bg-color16
+  background-color: #CCD3CA
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+
+.bg-color17
+  background-color: #FCC843
+  border-bottom-left-radius: 15px
+  border-bottom-right-radius: 15px
 
 .txt-color1
   border-bottom: 1px solid #DC753F

@@ -3,18 +3,18 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#FFF") 1
       h1 Experiencia turística
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Existen diferentes definiciones para la palabra experiencia, para enmarcarla en el campo del turismo, es necesario comprender cómo esta se puede convertir en una ventaja competitiva para un destino y cómo va en busca de satisfacer las necesidades del turista y mejorar las condiciones de la comunidad local en un gana-gana permitido por esta actividad.
     p.mb-5 Para comprender la importancia de la experiencia, se presenta la siguiente definición que la relaciona con el turismo:
-    .cajon.color-secundario.p-4.mb-5
+    .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
       .row.align-items-center
         .col-lg-2.mb-4.mb-lg-0
           figure
@@ -23,21 +23,21 @@
           p.mb-0 “La Real Academia Española define vivencia como el hecho de experimentar algo. La vivencia, por tanto, es la causa que permite al usuario participar activa y personalmente en los servicios que compra y consume. Llevado al terreno turístico, la vivencia es el componente que ofrece al turista la posibilidad de interactuar con el destino”. (Rodríguez-Zulaica, 2016).
     p.mb-5 Tomando como base la definición, ¿cómo diseñar una experiencia turística? Se puede comprender mejor la diferencia entre el producto y la experiencia turística, además, entender que definitivamente son un complemento, como se muestra a continuación:
     .row.justify-content-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img2.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               h4.text-center.mb-4 Producto turístico
               p.text-center Permite ver y conocer el destino, organizando una serie de elementos para que el turista los pueda consumir o disfrutar.
-      .col-lg-4
+      .col-lg-4(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img3.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               h4.text-center.mb-4 Experiencia turística
               p.text-center Permite interactuar con el destino diseñando experiencia, teniendo en cuenta las emociones, las sensaciones, los sentidos, generando conexión con el mismo.
-    .row.bg-color1
+    .row.bg-color1(data-aos="fade-up")
       .col-12.p-5
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -46,14 +46,14 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema1/img4.svg', style="width: 450px").m-auto
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 #[b Para que una experiencia sea memorable, se debe tener en cuenta, entre otros elementos], permitir que el turista tenga un contacto auténtico con la comunidad receptora, facilitando el diálogo y el encuentro a través de actividades que conecten los sentidos, las emociones, la forma de ver la vida, la espiritualidad y el diario vivir que permite interpretar y realizar un intercambio social y cultural entre visitante y local.
     p.text-center.mb-5 Otros elementos que se deben tener en cuenta son:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 1]. #[i Elementos para una experiencia memorable]
@@ -64,10 +64,10 @@
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema1/img7.svg')
-      .col
-        h4.mb-0 Ventajas de diseñar una experiencia
+      .col-auto
+        h4.mb-0.txt-color1 Ventajas de diseñar una experiencia
     p.mb-5 Algunas de las ventajas que conlleva el diseño de una experiencia turística, de acuerdo con el “manual de diseño de experiencias turísticas” (SERNATUR, 2017), son:
-    .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5
+    .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
           .col-xl-4.mb-4.mb-mb-0
@@ -121,9 +121,9 @@
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema1/img7.svg')
-      .col
-        h4.mb-0 Diseño de experiencias turísticas
-    .row.bg-color2
+      .col-auto
+        h4.mb-0.txt-color1 Diseño de experiencias turísticas
+    .row.bg-color2(data-aos="fade-left")
       .col-12.p-5
         .row.justify-content-center.align-items-center
           .col-lg-5.mb-4.mb-lg-0
@@ -152,7 +152,7 @@
         h3.mb-0 Diseño de experiencias turísticas
     p.mb-5 En el presente recurso, se abordarán los elementos necesarios para diseñar las fases de una experiencia turística.
     p.text-center.mb-5 El diseño de una experiencia se puede desarrollar en tres fases:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img10.svg' alt='AvatarTop')
@@ -177,12 +177,12 @@
           .col-auto.pe-0
             figure
               img(src='@/assets/curso/tema1/img7.svg')
-          .col
-            h4.mb-0 Planeación
+          .col-auto
+            h4.mb-0.txt-color1 Planeación
         p En esta fase, están incluidos elementos que permiten identificar las fortalezas que tiene la experiencia que se va a desarrollar, incluye todos aquellos elementos de alistamiento de la actividad; es muy importante, ya que en ella se planifica la actividad antes de su ejecución.
         p.mb-5 Desarrollar cada uno de estos pasos en la fase de planeación permitirá hacer el alistamiento para la poder ejecutar una experiencia turística; se recomienda verificar a través de una lista de chequeo el seguimiento y cumplimiento de los pasos.
         .row.mb-5
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img12.png', style="width: 450px").m-auto
           .col-lg-8
@@ -195,19 +195,19 @@
             p.mb-4 #[b.txt-color1 Entornos exclusivos]
             p En este paso se deben identificar los recursos y atractivos tanto naturales como culturales que sean auténticos, es decir, que no se hayan escenificado para el turista y que se den incluso cuando no hay turistas (una fiesta patronal, un domingo de mercado) y que puedan generar una identidad con ventajas comparativas en el destino. Los recursos y atractivos en entornos exclusivos se deben inventariar y categorizar.
             p Se debe tener en cuenta que los atractivos son el eje del desplazamiento turístico.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img13.png', style="width: 450px").m-auto
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img14.png', style="width: 450px").m-auto
           .col-lg-8
             p.mb-4 #[b.txt-color1 Tendencias del mercado]
             p Al igual que investigar el perfil del turista, conocer el comportamiento del mercado con sus tendencias también aporta elementos importantes a la hora de diseñar una experiencia. Los tiempos actuales han cambiado la forma de viajar, eventos como las pandemias mundiales han cambiado la forma y las tendencias a la hora de hacer turismo.
             p Se estima que los viajeros en los próximos años visitarán destinos más cerca de su sitio de residencia y tendrán preferencia por los sitios naturales y los entornos rurales que no presenten altas concentraciones de personas, además, que garanticen el cumplimiento de normas de bioseguridad.
-        .row.mb-4
+        .row.mb-4(data-aos="fade-down")
           .col-12
             p También es importante entender que los viajes experienciales vienen marcando una importante demanda a nivel mundial, ejemplo de ello se refleja en dos párrafos donde se marca una fuerte tendencia hacia este tipo de viajes.
           .col-lg-6.mb-4.mb-lg-0
@@ -233,12 +233,12 @@
             p.mb-4 #[b.txt-color1 Intercambio de experiencias]
             p Tan importante como conocer las tendencias del mercado es conocer otras experiencias turísticas, tanto las que está desarrollando la “competencia” como las similares que se den en otros lugares, incluso remotos. Si es posible vivir alguna de esas experiencias, mucho mejor, pues esto podrá aportar elementos y dar buenas ideas para el futuro diseño. Otra forma es consultar por Internet; existe mucha información acerca de experiencias turísticas en todo el mundo que seguro aportará a la que se quiera diseñar.
             p También es importante tener en cuenta que, cuando se tenga la experiencia diseñada, se debe dar a conocer, para que también entre en el abanico de posibilidades que tiene el turista y, por qué no, para que sea referente para otras experiencias.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img15.png', style="width: 450px").m-auto
         hr.mb-5
         .row.mb-5
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img16.png', style="width: 450px").m-auto
           .col-lg-8
@@ -248,7 +248,7 @@
         hr.mb-5
         p.mb-4 #[b.txt-color1 Objetivos de Desarrollo Sostenible]
         p.mb-5 De acuerdo con la política de Turismo Sostenible de Colombia 2020, los principales objetivos en los que puede contribuir el desarrollo del turismo son los N° 6, 7, 8, 11, 12, 13, 14, 15 y 17.
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-up")
           .col-lg-10.bg-white.p-5.mb-4
             figure
               img(src='@/assets/curso/tema1/img17.png')
@@ -261,7 +261,7 @@
             p Tal vez uno de los puntos relevantes de una experiencia turística es contar con personal capacitado y calificado en diferentes situaciones, de acuerdo con cómo se vaya presentando la experiencia. Las actitudes sumadas a las aptitudes garantizarán el éxito de una experiencia turística.
             p Si hay algún actor importante en este sentido es el guía de turismo, en él, en gran parte, cae el peso de la responsabilidad de que una experiencia turística logre el objetivo con el que fue diseñada. 
             p En este sentido, el Manual de Diseño de Experiencias Turísticas desarrollado por el Servicio Nacional de Turismo de Chile dedica un apartado destacando la importancia de los guías de turismo:
-          .col-lg-4
+          .col-lg-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img18.png', style="width: 450px").m-auto
         .row.justify-content-center.mb-4
@@ -280,7 +280,7 @@
               .bloque-texto-d__autor 
                 p.mb-0.d-flex.justify-content-end #[b - Nota. Tomado de SERNATUR (2017)]
         .row.align-items-center.mb-5
-          .col-lg-6.mb-4.mb-lg-0
+          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img14.svg')
           .col-lg-6
@@ -288,7 +288,7 @@
             p También se debe tener en cuenta que hay otros actores que forman parte de la cadena de la prestación de servicio y de la experiencia diseñada, todos, de igual manera, deben estar capacitados para poder brindar el mejor servicio y estar alineados e identificados con la experiencia que se está ofreciendo.
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img19.png', style="width: 450px").m-auto
           .col-lg-8
@@ -299,12 +299,12 @@
           .col-lg-8.mb-4.mb-lg-0
             p.mb-4 #[b.txt-color1 Protocolos de servicios]
             p Entendidos como el paso a paso en la ejecución de las funciones que deba cumplir una persona que preste un servicio, en este caso, turístico; la experiencia turística también debe contar con protocolos de servicios establecidos para sus diferentes momentos, esto de alguna forma permite estandarizar la prestación del servicio en beneficio del turista.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img20.png', style="width: 450px").m-auto
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img21.png', style="width: 450px").m-auto
           .col-lg-8
@@ -315,12 +315,12 @@
           .col-lg-8.mb-4.mb-lg-0
             p.mb-4 #[b.txt-color1 Redes sociales]
             p No se puede desconocer que como hay tendencias para viajar, también es una realidad de cómo las personas buscan información y compran los servicios y las experiencias turísticas; se debe pensar seriamente en cómo se va a promocionar la experiencia que se diseñe y esto tiene que ver con factores como la identificación de los segmentos de mercado a los cuales va dirigida la experiencia. Hoy, manejar la promoción por medio de las redes es indispensable para la visibilización de los destinos, se debe entender que redes como #[i Facebook], #[i Instagram], aplicaciones como #[i WhatsApp], un #[i blog] o una página #[i web] tienen cada una sus particularidades, formas de ser consultadas y diferentes públicos, por esta razón, es necesario contar con el conocimiento o tener a alguien capacitado que lo pueda hacer de forma profesional para obtener mejores resultados a la hora de comercializar la experiencia.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img22.png', style="width: 450px").m-auto
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img23.png', style="width: 450px").m-auto
           .col-lg-8
@@ -332,11 +332,11 @@
           .col-auto.pe-0
             figure
               img(src='@/assets/curso/tema1/img7.svg')
-          .col
-            h4.mb-0 Ejecución
+          .col-auto
+            h4.mb-0.txt-color1 Ejecución
         p.mb-5 Una vez se han tenido en cuenta algunos elementos para la planificación y puesta en marcha del diseño de la experiencia, se deben establecer los pasos que se tendrán en cuenta para la ejecución de esta, aunque se denomina ejecución, todavía se está en la estructuración y validación de la experiencia antes de ser puesta en el mercado para su comercialización.
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img24.png', style="width: 450px").m-auto
           .col-lg-8
@@ -348,13 +348,13 @@
             p.mb-4 #[b.txt-color1 Involucrar a los locales]
             p Si una experiencia pretende ser auténtica y original, se debe tener en cuenta que parte de los actores principales son las personas de la localidad donde se desarrolle la misma. El aporte que pueden ofrecer las personas que realmente están inmersas y sienten los valores culturales de su localidad dará un valor agregado a la experiencia.
             p Se debe tener mucha precaución al momento de diseñar la experiencia, sobre todo en algunos escenarios donde las comunidades y los ecosistemas pueden ser frágiles y vulnerables; siempre se debe contar con la autorización de las personas que habitan los sitios donde se puede diseñar la experiencia, entendiendo que si se va a obtener provecho de la actividad, deben verse beneficiadas las personas que habitan el sitio y causar el menor impacto, tanto en el componente cultural como en el ambiental.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img25.png', style="width: 450px").m-auto
         p.mb-5 Todo esto también fortalece el turismo sostenible y debe hacerse visible al turista, ya que lo agradecerá y comprenderá mejor el sitio que visita con sus particularidades.
         hr.mb-5
         .row.mb-5
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img26.png', style="width: 450px").m-auto
           .col-lg-8
@@ -366,10 +366,10 @@
             p.mb-4 #[b.txt-color1 Momentos sensoriales]
             p Estimular los sentidos a través de diferentes actividades a lo largo de una experiencia puede ser parte del factor fundamental del éxito de esta, se debe estar atento a la hora del diseño de cómo se pueden ir involucrando los sentidos para complementar la actividad y la historia que se está contando.
             p Por ejemplo, al realizar recorridos por un sendero en un bosque, donde se invite a los participantes a cerrar sus ojos y activar su olfato y oídos, palpar las diferentes texturas de las plantas con las manos o los pies y, por qué no, probar hojas o frutos que allí se encuentren (lógicamente, cerciorándose de que no le harán daño al turista) harán que el turista esté más atento y viva de manera directa la experiencia, entendiendo mejor la intención del recorrido.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema1/img27.png', style="width: 450px").m-auto
-        .cajon.color-secundario.p-4.mb-5
+        .cajon.color-secundario.p-4.mb-5(data-aos="fade-up")
           .row.align-items-center
             .col-lg-2.mb-4.mb-lg-0
               figure
@@ -378,7 +378,7 @@
               p.mb-0 En fin, para involucrar los sentidos hace falta imaginación, ya que las posibilidades son infinitas de acuerdo con las características de los escenarios en que se quiera aplicar.
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img28.png', style="width: 450px").m-auto
           .col-lg-8
@@ -392,13 +392,13 @@
             p.mb-4 #[b.txt-color1 Participación del turista]
             p El turista es uno de los protagonistas en el diseño de la experiencia, pues alrededor de él y con los entornos exclusivos, tanto naturales como culturales que tenga la localidad, se diseña la misma.
             p En este sentido y como se ha venido definiendo, una de las claves de una buena experiencia es la participación del turista en las actividades que se proponen, teniendo en cuenta que dicha participación es la que permite al turista llevarse una vivencia significativa, apreciar y valorar más los recursos y atractivos con los que está teniendo contacto, aprender sobre la cultura y la naturaleza del lugar y disfrutar de la actividad.
-          .col-lg-4
+          .col-lg-4(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img25.png', style="width: 450px").m-auto
         p Es importante entonces tener claro cuál será el nivel de participación que va a tener el turista a lo largo de la experiencia, esto teniendo en cuenta el haber estudiado su perfil e identificado sus motivaciones, se puede entonces definir el rol del turista en la actividad, establecer una participación pasiva o activa, o el nivel de inmersión del turista en la actividad.
         p Un punto destacado y que tiene que ver con toda la experiencia es, sin duda, poder hacer actividades que le dejen conocimiento, sensaciones y emociones al turista, realizar actividades experienciales de manera estructurada pone en el centro de la experiencia al turista; se debe tener en cuenta que la participación de él en las actividades posibilita un abanico de oportunidades para que las experiencias sean más significativas. 
         p.mb-5 Si estas actividades donde se involucre al turista tienen en cuenta sus motivaciones, se deben estructurar desde los siguientes aspectos:
-        .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-4
+        .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-4(data-aos="fade-down")
           SlyderA(tipo="b")
             .row
               .col-xl-4.mb-4.mb-mb-0
@@ -423,7 +423,7 @@
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema1/img31.png')
-        .cajon.color-secundario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4(data-aos="fade-up")
           .row.align-items-center
             .col-lg-2.mb-4.mb-lg-0
               figure
@@ -433,7 +433,7 @@
         p.mb-5 El diseño de la actividad experiencial, al dar respuesta a las preguntas, mezcla los aspectos que se vienen mencionando, pues forman parte integral de la misma y deben ir en concordancia con las motivaciones y la identidad que el mismo destino quiere promocionar, sin olvidar que cada actividad debe considerarse única, diferenciadora, innovadora y competitiva.
         hr.mb-5
         .row.mb-4
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src='@/assets/curso/tema1/img32.png', style="width: 450px").m-auto
           .col-lg-8
@@ -446,11 +446,11 @@
           .col-auto.pe-0
             figure
               img(src='@/assets/curso/tema1/img7.svg')
-          .col
-            h4.mb-0 Ejecución
+          .col-auto
+            h4.mb-0.txt-color1 Ejecución
         p Como toda actividad, la evaluación que se haga de la misma cobra importancia en la medida que permite realizar seguimiento y establecer acciones en caso de encontrar hallazgos que permitan mejorar la experiencia diseñada.
         p.mb-5 Esquema de diseño de experiencias turísticas, fase de evaluación.
-        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+        AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-left")
           .row(titulo="Medir la satisfacción")
             .col-lg-8.mb-4.mb-lg-0
               p Se deben diseñar estrategias que permitan medir el grado de satisfacción que tenga el turista frente a la experiencia que se diseñó. Este elemento tiene un gran valor, pues la información que se pueda obtener del turista frente al cumplimiento de expectativas, percepciones y satisfacción con la experiencia debe permitir mejorar o fortalecer aquellos aspectos que se identifiquen como débiles o fuertes en la misma. 

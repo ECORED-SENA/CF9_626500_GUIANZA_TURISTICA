@@ -3,11 +3,11 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#FFF") 4
       h1 Rutas turísticas
-    .row.bg-color7.mb-5
+    .row.bg-color7.mb-5(data-aos="fade-right")
       .col-12.p-5
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -32,17 +32,52 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema4/img2.svg', style="width: 550px").m-auto
-    figure.mb-5
-      img(src='@/assets/curso/tema4/img3.svg', style="width: 1250px").m-auto
+    .row.justify-content-center.mb-5(data-aos="fade-left")
+      .col-lg-10.position-relative
+        .avatar
+          figure
+            img(src="@/assets/curso/tema4/img3.svg", alt="alt").img250
+        .crd.crd--avatarHorizontal.crd--first.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema4/img11.svg", alt="alt").img100
+            .col
+              h5 Mamani (2016):
+              p Se conoce como ruta turística al camino o recorrido que se destaca por sus atractivos para el desarrollo del turismo. Estas rutas pueden sobresalir por sus características naturales o por permitir el acceso a un patrimonio cultural o histórico de importancia.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema4/img12.svg", alt="alt").img100
+            .col
+              h5 Molina (2013):
+              p La ruta turística es una propuesta estandarizada de lugares y actividades a realizar en una zona bajo régimen, tiempos y duración de visitas flexibles. Son una modalidad de los productos turísticos, que, basada en un itinerario previo, facilita la orientación del pasajero en el destino.
+        .crd.crd--avatarHorizontal.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema4/img13.svg", alt="alt").img100
+            .col
+              h5 Ministerio de Comercio, Industria y Turismo de Colombia (2018):
+              p Itinerario que articula varios atractivos turísticos, se caracteriza por iniciar en un punto determinado y llegar a otro punto diferente de partida.
+        .crd.crd--avatarHorizontal.crd--last.py-4
+          .row.align-items-center
+            .col-auto
+              figure
+                img(src="@/assets/curso/tema4/img14.svg", alt="alt").img100
+            .col
+              h5 Cruz (2014):
+              p Se definen como rutas o caminos trazados para que turistas o viajeros puedan conocer y visitar diferentes atractivos turísticos. Existen dos tipos de rutas turísticas: circulares y lineales. Las primeras, tienen un punto de partida y tienen atractivos naturales, como paisajes, haciendo paradas en puntos de interés. Las segundas se puede decir que van, como lo indica su nombre, en línea, y los destinos turísticos se encuentran ligados entre sí por medio de características en común.
     p.mb-5 De acuerdo con las definiciones presentadas por los autores, la ruta turística cobra importancia dentro del producto turístico de un destino, permite conectar atractivos y recursos de tipo natural y cultural, y a la vez involucra las experiencias que se desarrollen en cada uno de esos mismos escenarios.
     .row.align-items-center.mb-4
       .col-auto.pe-0
         figure
           img(src='@/assets/curso/tema1/img7.svg')
-      .col
-        h4.mb-0 Ventajas de una ruta turística
+      .col-auto
+        h4.mb-0.txt-color1 Ventajas de una ruta turística
     p.mb-5 Presentar los atributos de un destino turístico de forma organizada por medio de rutas, sin duda, ofrece una serie de ventajas tanto a los destinos como a los viajeros que pretenden visitarlo. Algunas de las ventajas que puede tener una ruta turística son:
-    SlyderF(columnas="col-lg-6 col-xl-4")
+    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-up")
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-12
@@ -78,7 +113,7 @@
     .titulo-segundo.color-primario
       h2 4.1 Tipos de rutas
     p.mb-5 Es muy frecuente y repetitivo que cuando una persona busca información para realizar un viaje se le presenten como resultado diferentes rutas en el destino; además de permitir organizar el itinerario de viaje, da al turista la posibilidad de personalizar el viaje de acuerdo con sus preferencias. Es importante entonces aclarar algunos conceptos referentes a los tipos de rutas:
-    .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5
+    .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5(data-aos="fade-right")
       SlyderA(tipo="b")
         .row
           .col-xl-4.mb-4.mb-mb-0
@@ -168,13 +203,13 @@
             figure
               img(src='@/assets/curso/tema4/img11.png')
     p.text-center.mb-5 Cada ruta contará con los siguientes tres elementos esenciales:
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-down")
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/tema4/img1.png' alt='AvatarTop' style="width: 350px").m-auto
-          p #[b Tipo de ruta]
+              img(src='@/assets/curso/tema4/img13.png' alt='AvatarTop' style="width: 350px").m-auto
+          p.text-center #[b Tipo de ruta]
           ul
             li
             | • Ruta temática
@@ -182,8 +217,8 @@
         .tarjeta.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/tema4/img2.png' alt='AvatarTop' style="width: 350px").m-auto
-          p #[b Forma de recorrerla]
+              img(src='@/assets/curso/tema4/img14.png' alt='AvatarTop' style="width: 350px").m-auto
+          p.text-center #[b Forma de recorrerla]
           ul
             li
             | • Ruta guiada
@@ -193,20 +228,20 @@
         .tarjeta.color-secundario.p-4
           .row.justify-content-center.mb-3
             .col-12
-              img(src='@/assets/curso/tema4/img3.png' alt='AvatarTop' style="width: 350px").m-auto
-          p #[b Medios de transporte para recorrerla.]
+              img(src='@/assets/curso/tema4/img15.png' alt='AvatarTop' style="width: 350px").m-auto
+          p.text-center #[b Medios de transporte para recorrerla.]
     Separador
     #t_4_2
     .titulo-segundo.color-primario
       h2 4.2 Estructura de una ruta turística
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img12.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 La ruta turística es una de las formas de volver tangibles los productos turísticos y va más allá de unir atractivos turísticos. La ruta tiene componentes que también deben ser organizados en función de diferentes elementos, teniendo en cuenta las tendencias del mercado, el perfil del turista, la identidad del destino, los prestadores de servicios turísticos y los servicios de apoyo que encadenados conforman y dan sentido a la ruta para ser implementada.
     p.mb-5 Poner todos estos elementos de forma organizada en función del turismo da alternativas al turista para poder vivir un destino de acuerdo con sus gustos y expectativas. La ruta ayuda a visibilizar los destinos y, de acuerdo con cómo se estructure, podrá poner un mismo destino al alcance de diferentes perfiles de turistas, no solo en cuanto a sus expectativas, sino a sus posibilidades económicas, por ejemplo.
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-12.p-4.bg-color8
         .row.align-items-center
           .col-lg-1.mb-4.mb-lg-0
@@ -214,7 +249,7 @@
               img(src='@/assets/curso/tema4/img4.svg', style="width: 70px").m-auto
           .col-lg-11
             p.mb-0 Es importante tener en cuenta que, si bien las rutas turísticas son una forma de unir atractivos en un destino, estas comienzan a dar mayor relevancia a las experiencias que se dan dentro de ellas, siendo hoy en día las rutas temáticas una forma de disfrutar destinos; las experiencias también deben diseñarse pensando en formar parte de una o varias rutas.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-6
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 3]. #[i Estructura de una ruta turística]
@@ -224,8 +259,8 @@
     #t_4_3
     .titulo-segundo.color-primario
       h2 4.3 Rutas culturales y naturales
-    p.mb-5 Colombia es un país pluricultural y megadiverso, estos dos elementos hacen que el potencial en turismo cultural y de naturaleza sea inmenso. En los últimos años, el país ha venido trabajando en consolidar diferentes destinos a través de productos turísticos, con el fin de posicionar el turismo como alternativa de crecimiento, desarrollo y diversificación de las actividades económicas.
-    .row.bg-color9.mb-5
+    p.mb-5(data-aos="fade-right") Colombia es un país pluricultural y megadiverso, estos dos elementos hacen que el potencial en turismo cultural y de naturaleza sea inmenso. En los últimos años, el país ha venido trabajando en consolidar diferentes destinos a través de productos turísticos, con el fin de posicionar el turismo como alternativa de crecimiento, desarrollo y diversificación de las actividades económicas.
+    .row.bg-color9.mb-5(data-aos="fade-left")
       .col-12.p-5
         .row.align-items-center.justify-content-center.py-5
           .col-lg-6.mb-4.mb-lg-0
@@ -243,7 +278,7 @@
               li 
                 i.fas.fa-location-arrow(style="color: #FF6D4B")
                 | Unan experiencias.
-    .row.bg-color10.mb-5
+    .row.bg-color10.mb-5(data-aos="fade-right")
       .col-12.p-5
         .row.align-items-center.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
@@ -274,7 +309,7 @@
             figure
               img(src='@/assets/curso/tema4/img9.svg', style="width: 650px").m-auto
     p.mb-5 Para mayor información, se anima al aprendiz a consultar información complementaria en sitios como:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-10.bg-color11.p-4
         .row.align-items-center
           .col-lg-1.mb-4.mb-lg-0
@@ -310,7 +345,7 @@
                 a.boton.color-acento-botones.me-3(href="https://www.mincit.gov.co/" target="_blank")
                   span Descargar
                   i.fas.fa-link
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-8.p-4.bg-color8
         .row.align-items-center
           .col-lg-1.mb-4.mb-lg-0

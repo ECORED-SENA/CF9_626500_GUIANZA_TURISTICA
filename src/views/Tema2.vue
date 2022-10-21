@@ -3,17 +3,17 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color:#FFF") 2
       h1 Técnicas de animación
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El concepto de animación está íntimamente relacionado con la evolución de la lúdica, una dimensión humana que, como todo, ha ido cambiando y migrando hacia nuevas concepciones.  La animación y la lúdica hacen parte de la biología de los seres humanos, y por qué no afirmarlo, de los seres vivos en general; el jugueteo hace parte de la animación, por esto la recreación lo toma y estructura, para convertirlo en una forma de llevar a las personas a divertirse y aprender a interactuar de manera dinámica; el tiempo libre y el ocio permiten integrar una reflexión que cambia la perspectiva de la animación de superfluo a profundo.
-    .row.bg-color5.mb-4
+    .row.bg-color5.mb-4(data-aos="fade-up")
       .col-12.p-5
         .row.align-items-center
           .col-lg-6.mb-4.mb-lg-0
@@ -23,93 +23,95 @@
           .col-lg-6
             figure
               img(src='@/assets/curso/tema2/img2.svg', style="width: 450px").m-auto
-    p Aunque la historia es fundamental en la evolución del concepto de animación, se hace necesario desarrollar una definición consensuada de algunos autores y expertos, para una mejor comprensión, así, se define como: aquellas actividades que tienen por objetivo fundamental “lograr un disfrute y esparcimiento placentero hacia clientes y personas que necesitan ocupar su tiempo de ocio”.
-    p.mb-5 La evolución del concepto de animación ha ido integrando tendencias en los últimos años, estas son:
-    .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5
-      SlyderA(tipo="b")
-        .row
-          .col-xl-4.mb-4.mb-mb-0
-            h4 De contratación
-            p #[b Especializada]: Las nuevas contrataciones a expertos en cada campo, estableciendo una diferencia entre el animador de espectáculos (cantantes, bailarines, actores…) y el de actividades turísticas y recreativas (guías turísticos, monitores deportivos o infantiles, presentadores de actividades).
-            p #[b Multifuncional]: Un animador que integre el manejo de un arte o conocimiento especializado en áreas de cultura, recreación, tiempo libre y educación.
-            p #[b Involucramiento]: Actividades que permiten integrar a personal ajeno a la animación, pero que complementa un espacio con entretenimiento, por ejemplo, un show de barismo.
-          .col-xl-8
+    .row.bg-color15.mb-4
+      .col-12.px-5
+        p Aunque la historia es fundamental en la evolución del concepto de animación, se hace necesario desarrollar una definición consensuada de algunos autores y expertos, para una mejor comprensión, así, se define como: aquellas actividades que tienen por objetivo fundamental “lograr un disfrute y esparcimiento placentero hacia clientes y personas que necesitan ocupar su tiempo de ocio”.
+        p.mb-5 La evolución del concepto de animación ha ido integrando tendencias en los últimos años, estas son:
+        .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5(data-aos="fade-left")
+          SlyderA(tipo="b")
+            .row
+              .col-xl-4.mb-4.mb-mb-0
+                h4 De contratación
+                p #[b Especializada]: Las nuevas contrataciones a expertos en cada campo, estableciendo una diferencia entre el animador de espectáculos (cantantes, bailarines, actores…) y el de actividades turísticas y recreativas (guías turísticos, monitores deportivos o infantiles, presentadores de actividades).
+                p #[b Multifuncional]: Un animador que integre el manejo de un arte o conocimiento especializado en áreas de cultura, recreación, tiempo libre y educación.
+                p #[b Involucramiento]: Actividades que permiten integrar a personal ajeno a la animación, pero que complementa un espacio con entretenimiento, por ejemplo, un show de barismo.
+              .col-xl-8
+                figure
+                  img(src='@/assets/curso/tema2/img2.png')
+            .row
+              .col-xl-4.mb-4.mb-mb-0
+                h4 Tecnológica
+                p Animación con base en inteligencia artificial.
+              .col-xl-8
+                figure
+                  img(src='@/assets/curso/tema2/img3.png')
+            .row
+              .col-xl-4.mb-4.mb-mb-0
+                h4 Organizacional
+                p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i outdoor] para desarrollo personal de los empleados.
+              .col-xl-8
+                figure
+                  img(src='@/assets/curso/tema2/img4.png')
+            .row
+              .col-xl-4.mb-4.mb-mb-0
+                h4 Socio-comunitaria
+                p Actividades de animación para plantear y solucionar situaciones en la comunidad, ya sea de localidad u organizaciones sociales y gubernamentales.
+              .col-xl-8
+                figure
+                  img(src='@/assets/curso/tema2/img5.png')
+            .row
+              .col-xl-4.mb-4.mb-mb-0
+                h4 Sostenibilidad
+                p Implica la ética empresarial, desestacionalización, respeto hacia la naturaleza y los entornos donde se dan las actividades.
+              .col-xl-8
+                figure
+                  img(src='@/assets/curso/tema2/img6.png')
+        p.mb-5(data-aos="fade-down") El turismo apropia el concepto de animación acuñándolo como el conjunto de técnicas orientadas a motivar, facilitar y promover participación abierta y amplia de los turistas como parte del disfrute, diversión e interacción en época o momentos de vacaciones o tiempo libre, en todos los espacios de aprovechamiento. El rol del profesional que asume este reto es complejo, pues las aptitudes, actitudes, conocimientos, destrezas, habilidades para este tipo de actividades son de alto nivel, algunos de ellos son:
+        .row.align-items-center.justify-content-center.mb-5(data-aos="fade-right")
+          .col-lg-4.mb-4.mb-lg-0
+            ul.lista-ul
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Orientar sin imponer.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Lenguaje amable pero directivo.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Viveza intelectual, chispa.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Creatividad e imaginación.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Manejo técnico de grupos y de comunicación eficiente.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Alta resistencia física, psíquica y mental.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Sentido organizativo.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Habilidades manuales.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Autoridad.
+              li 
+                i.fas.fa-location-arrow(style="color: #FF6D4B")
+                | Espontaneidad.
+          .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/img2.png')
-        .row
-          .col-xl-4.mb-4.mb-mb-0
-            h4 Tecnológica
-            p Animación con base en inteligencia artificial.
-          .col-xl-8
-            figure
-              img(src='@/assets/curso/tema2/img3.png')
-        .row
-          .col-xl-4.mb-4.mb-mb-0
-            h4 Organizacional
-            p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i outdoor] para desarrollo personal de los empleados.
-          .col-xl-8
-            figure
-              img(src='@/assets/curso/tema2/img4.png')
-        .row
-          .col-xl-4.mb-4.mb-mb-0
-            h4 Socio-comunitaria
-            p Actividades de animación para plantear y solucionar situaciones en la comunidad, ya sea de localidad u organizaciones sociales y gubernamentales.
-          .col-xl-8
-            figure
-              img(src='@/assets/curso/tema2/img5.png')
-        .row
-          .col-xl-4.mb-4.mb-mb-0
-            h4 Sostenibilidad
-            p Implica la ética empresarial, desestacionalización, respeto hacia la naturaleza y los entornos donde se dan las actividades.
-          .col-xl-8
-            figure
-              img(src='@/assets/curso/tema2/img6.png')
-    p.mb-5 El turismo apropia el concepto de animación acuñándolo como el conjunto de técnicas orientadas a motivar, facilitar y promover participación abierta y amplia de los turistas como parte del disfrute, diversión e interacción en época o momentos de vacaciones o tiempo libre, en todos los espacios de aprovechamiento. El rol del profesional que asume este reto es complejo, pues las aptitudes, actitudes, conocimientos, destrezas, habilidades para este tipo de actividades son de alto nivel, algunos de ellos son:
-    .row.align-items-center.justify-content-center.mb-5
-      .col-lg-4.mb-4.mb-lg-0
-        ul.lista-ul
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Orientar sin imponer.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Lenguaje amable pero directivo.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Viveza intelectual, chispa.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Creatividad e imaginación.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Manejo técnico de grupos y de comunicación eficiente.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Alta resistencia física, psíquica y mental.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Sentido organizativo.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Habilidades manuales.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Autoridad.
-          li 
-            i.fas.fa-location-arrow(style="color: #FF6D4B")
-            | Espontaneidad.
-      .col-lg-6
-        figure
-          img(src='@/assets/curso/tema2/img3.svg', style="width: 550px").m-auto
-    .cajon.color-secundario.p-4.mb-5
-      .row.align-items-center
-        .col-lg-2.mb-4.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema2/img4.svg', style="width: 70px").m-auto
-        .col-lg-10
-          p.mb-0 Es así como la Animación Turística, de acuerdo con la Organización Mundial de Turismo (1985), se define como: #[b “Toda acción realizada en o sobre un grupo, una colectividad o un medio, con la intención de desarrollar la comunicación y garantizar la vida social”].
-    p.text-center.mb-5 Esto en funciones se traduce como:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+              img(src='@/assets/curso/tema2/img3.svg', style="width: 550px").m-auto
+        .cajon.color-secundario.p-4.mb-5(data-aos="fade-up")
+          .row.align-items-center
+            .col-lg-2.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/tema2/img4.svg', style="width: 70px").m-auto
+            .col-lg-10
+              p.mb-0 Es así como la Animación Turística, de acuerdo con la Organización Mundial de Turismo (1985), se define como: #[b “Toda acción realizada en o sobre un grupo, una colectividad o un medio, con la intención de desarrollar la comunicación y garantizar la vida social”].
+        p.text-center.mb-5 Esto en funciones se traduce como:
+    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-12
@@ -150,7 +152,7 @@
           .col-12
             img(src='@/assets/curso/tema2/img11.png' alt='AvatarTop' style="width: 350px").m-auto
         p.text-center Evidencias de los logros.
-    .row.bg-color6.mb-4
+    .row.bg-color6.mb-4(data-aos="fade-right")
       .col-12.p-5
         .row.align-items-center
           .col-lg-4.mb-4.mb-lg-0
@@ -183,10 +185,10 @@
           .col-lg-8
             figure
               img(src='@/assets/curso/tema2/img6.svg', style="width: 650px").m-auto
-    p.mb-5 A continuación, se presenta un ejemplo de técnicas de animación derivadas de la recreación y de la planificación, en el que se establecen la organización y el desarrollo de diferentes estrategias y actividades lúdicas recreativas, presentando la posible estructura de la actividad.  Se pretende, desde la implementación de las técnicas, crear ambientes favorables a los grupos, fomentando relaciones sociales e interacciones culturales y diversión.
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Planteamiento de la actividad")
-        .col-lg-8.mb-4.mb-lg-0
+    p.mb-5(data-aos="fade-up") A continuación, se presenta un ejemplo de técnicas de animación derivadas de la recreación y de la planificación, en el que se establecen la organización y el desarrollo de diferentes estrategias y actividades lúdicas recreativas, presentando la posible estructura de la actividad.  Se pretende, desde la implementación de las técnicas, crear ambientes favorables a los grupos, fomentando relaciones sociales e interacciones culturales y diversión.
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-left")
+      .row.justify-content-center(titulo="Planteamiento de la actividad")
+        .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
@@ -203,8 +205,8 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img15.png', style="width: 450px").m-auto
-      .row(titulo="Descripción")
-        .col-lg-8.mb-4.mb-lg-0
+      .row.justify-content-center(titulo="Descripción")
+        .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
@@ -227,8 +229,8 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img16.png', style="width: 450px").m-auto
-      .row(titulo="Materiales")
-        .col-lg-8.mb-4.mb-lg-0
+      .row.justify-content-center(titulo="Materiales")
+        .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
@@ -258,8 +260,8 @@
         .col-lg-4
           figure
             img(src='@/assets/curso/tema2/img17.png', style="width: 450px").m-auto
-      .row(titulo="Reglas")
-        .col-lg-8.mb-4.mb-lg-0
+      .row.justify-content-center(titulo="Reglas")
+        .col-lg-7.mb-4.mb-lg-0
           ul.lista-ul
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
@@ -280,7 +282,7 @@
           figure
             img(src='@/assets/curso/tema2/img18.png', style="width: 450px").m-auto
     p.mb-5 La animación se estructura con base en técnicas y métodos propios de la recreación y está relacionada con dinámicas de grupo que se aplican perfectamente en los contextos turísticos de:
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
