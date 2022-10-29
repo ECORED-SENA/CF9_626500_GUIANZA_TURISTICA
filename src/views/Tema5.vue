@@ -9,31 +9,31 @@
       h1 La narración
     p.mb-5 Desde niños, la cercanía con la narración es reconocida gracias a que en las familias se han pasado de generación en generación recursos que son parte de nuestra cultura, como:
     .row.justify-content-center.mb-5(data-aos="fade-right")
-      .col-lg.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img1.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Fábulas]
-      .col-lg.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img2.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Cuentos]
-      .col-lg.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img3.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Adivinanzas]
-      .col-lg.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img4.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Hechos increíbles]
-      .col-lg.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img5.svg' alt='AvatarTop')
           .tarjeta.color-primario

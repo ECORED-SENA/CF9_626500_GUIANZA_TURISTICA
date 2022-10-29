@@ -180,7 +180,7 @@
           .col-auto
             h4.mb-0.txt-color1 Planeación
         p En esta fase, están incluidos elementos que permiten identificar las fortalezas que tiene la experiencia que se va a desarrollar, incluye todos aquellos elementos de alistamiento de la actividad; es muy importante, ya que en ella se planifica la actividad antes de su ejecución.
-        p.mb-5 Desarrollar cada uno de estos pasos en la fase de planeación permitirá hacer el alistamiento para la poder ejecutar una experiencia turística; se recomienda verificar a través de una lista de chequeo el seguimiento y cumplimiento de los pasos.
+        p.mb-5 Desarrollar cada uno de estos pasos en la fase de planeación permitirá hacer el alistamiento para poder ejecutar una experiencia turística; se recomienda verificar a través de una lista de chequeo el seguimiento y cumplimiento de los pasos.
         .row.mb-5
           .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             figure
@@ -214,7 +214,7 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                p #[b “Es posible que la tendencia más recurrente y significativa en el mundo actual sea la demanda de ‘viajes experienciales’, específicamente orientados a transmitir la idea de un turismo más inmersivo, local, auténtico, aventurero y/o activo”.]
+                p #[b Es posible que la tendencia más recurrente y significativa en el mundo actual sea la demanda de ‘viajes experienciales’, específicamente orientados a transmitir la idea de un turismo más inmersivo, local, auténtico, aventurero y/o activo.]
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 p.mb-0 #[em - Peak Adventure Travel Group y Skift Team (2014, p. 7)]
@@ -269,13 +269,13 @@
             .bloque-texto-d.color-secundario.p-4
               .bloque-texto-d__texto.mb-2
                 i.fas.fa-quote-left
-                p “En una experiencia turística, los guías son los mediadores más relevantes, ya que tienen que ejercer roles de liderazgo, animación, información e interpretación, entre otros, además de encargarse de presentar la narrativa. Por esta razón, deben ser profesionales capacitados. De todos sus posibles roles o capacidades, tres son los más importantes: la capacidad de intermediación, la de ofrecer seguridad y la de transmitir la narrativa de la experiencia.
+                p En una experiencia turística, los guías son los mediadores más relevantes, ya que tienen que ejercer roles de liderazgo, animación, información e interpretación, entre otros, además de encargarse de presentar la narrativa. Por esta razón, deben ser profesionales capacitados. De todos sus posibles roles o capacidades, tres son los más importantes: la capacidad de intermediación, la de ofrecer seguridad y la de transmitir la narrativa de la experiencia.
                   br
                   br
                   | Por otra parte, para que un turista pueda vivir plenamente la experiencia turística, es preciso que valide al guía como tal, estableciéndose entre ambos un vínculo de confianza. Para que ello ocurra, este debe proporcionar información, seguridad y confort al visitante, evitándole posibles problemas o riesgos. Por último, el guía debe ser capaz de transmitir al turista —de manera atractiva y envolvente— la narrativa de la experiencia, mediante el uso de habilidades comunicativas que mantengan el interés del visitante.
                   br
                   br
-                  | Estas capacidades, más otras como la empatía y el profesionalismo, resultan deseables en todos los mediadores, ya que son fundamentales para ofrecer una experiencia coherente y de calidad. Por esta razón, una empresa turística que quiera desarrollar una buena experiencia no puede descuidar a sus mediadores; todo lo contrario: debe procurar involucrarlos activamente en el cumplimiento de los objetivos de la empresa y de la experiencia, lo que les permitirá transmitir la narrativa de mejor manera”.
+                  | Estas capacidades, más otras como la empatía y el profesionalismo, resultan deseables en todos los mediadores, ya que son fundamentales para ofrecer una experiencia coherente y de calidad. Por esta razón, una empresa turística que quiera desarrollar una buena experiencia no puede descuidar a sus mediadores; todo lo contrario: debe procurar involucrarlos activamente en el cumplimiento de los objetivos de la empresa y de la experiencia, lo que les permitirá transmitir la narrativa de mejor manera.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 p.mb-0.d-flex.justify-content-end #[b - Nota. Tomado de SERNATUR (2017)]
@@ -400,7 +400,7 @@
         p.mb-5 Si estas actividades donde se involucre al turista tienen en cuenta sus motivaciones, se deben estructurar desde los siguientes aspectos:
         .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-4(data-aos="fade-down")
           SlyderA(tipo="b")
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 ¿Qué queremos que el turista sepa?
                 p Se deben definir los aspectos relevantes que se quiere que el turista sepa a partir de las temáticas específicas que van a nutrir la experiencia.
@@ -409,14 +409,14 @@
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema1/img29.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 ¿Qué queremos que el turista sienta?
                 p Las emociones forman parte integral de una actividad experiencial, diseñarla a partir de lo que se quiere generar en el turista es posible. Las actividades experienciales deben tocar la fibra del turista, deben moverlo emocionalmente, este factor les encanta a las personas que buscan experiencias. Sentimientos de admiración hacia una labor, de recordación o evocación de tiempos pasados, adrenalina o incluso temor o tristeza forman parte de esos sentimientos y emociones que se pueden generar a partir de una actividad experiencial bien diseñada. Este aspecto se complementa con lo que se trabaja en los guiones o la información al turista.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema1/img30.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 ¿Qué queremos que el turista haga?
                 p De la misma forma, se pueden diseñar experiencias para la acción, es decir, una actividad experiencial bien estructurada, con un mensaje fuerte y el manejo de emociones podrá llevar al turista a realizar acciones inmediatas o posteriores, desde diferentes puntos de vista; por ejemplo, en una actividad de ecoturismo, se puede generar conciencia por el cuidado del medio ambiente, si el mensaje y la experiencia fueron significativos, la recordación en el turista lo llevará a tomar acciones en su cotidianidad para el cuidado del mismo.
@@ -447,7 +447,7 @@
             figure
               img(src='@/assets/curso/tema1/img7.svg')
           .col-auto
-            h4.mb-0.txt-color1 Ejecución
+            h4.mb-0.txt-color1 Evaluación
         p Como toda actividad, la evaluación que se haga de la misma cobra importancia en la medida que permite realizar seguimiento y establecer acciones en caso de encontrar hallazgos que permitan mejorar la experiencia diseñada.
         p.mb-5 Esquema de diseño de experiencias turísticas, fase de evaluación.
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")(data-aos="fade-left")

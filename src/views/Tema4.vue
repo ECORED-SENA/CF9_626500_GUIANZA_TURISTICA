@@ -77,7 +77,7 @@
       .col-auto
         h4.mb-0.txt-color1 Ventajas de una ruta turística
     p.mb-5 Presentar los atributos de un destino turístico de forma organizada por medio de rutas, sin duda, ofrece una serie de ventajas tanto a los destinos como a los viajeros que pretenden visitarlo. Algunas de las ventajas que puede tener una ruta turística son:
-    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-up")
+    SlyderF(columnas="col-9 col-md-6 col-xl-4")(data-aos="fade-up")
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-12
@@ -282,7 +282,7 @@
       .col-12.p-5
         .row.align-items-center.justify-content-center
           .col-lg-5.mb-4.mb-lg-0
-            p En Colombia, entidades como FONTUR, el Viceministerio de Turismo o el Sistema de Parques Nacionales Naturales cada día trabajan por el posicionamiento de destinos a través de rutas, algunas se ellas son:
+            p En Colombia, entidades como FONTUR, el Viceministerio de Turismo o el Sistema de Parques Nacionales Naturales cada día trabajan por el posicionamiento de destinos a través de rutas, algunas de ellas son:
             ul.lista-ul
               li 
                 i.fas.fa-location-arrow(style="color: #FF6D4B")
@@ -321,14 +321,14 @@
                 p.mb-0 Colombia #[i travel]
               .col-lg
                 a.boton.color-acento-botones.me-3(href="https://colombia.travel/es" target="_blank")
-                  span Descargar
+                  span Enlace
                   i.fas.fa-link
             .row.align-items-center
               .col-lg-6
                 p.mb-0 Rutas del paisaje cultural cafetero
               .col-lg
                 a.boton.color-acento-botones.me-3(href="https://rutasdelpaisajeculturalcafetero.com/" target="_blank")
-                  span Descargar
+                  span Enlace
                   i.fas.fa-link
           .col-lg
             .row.align-items-center.mb-3
@@ -336,14 +336,14 @@
                 p.mb-0 Parques nacionales
               .col-lg
                 a.boton.color-acento-botones.me-3(href="https://www.parquesnacionales.gov.co/portal/es/" target="_blank")
-                  span Descargar
+                  span Enlace
                   i.fas.fa-link
             .row.align-items-center
               .col-lg-6
                 p.mb-0 Ministerio de comercio industria y turismo
               .col-lg
                 a.boton.color-acento-botones.me-3(href="https://www.mincit.gov.co/" target="_blank")
-                  span Descargar
+                  span Enlace
                   i.fas.fa-link
     .row.justify-content-center(data-aos="fade-right")
       .col-lg-8.p-4.bg-color8

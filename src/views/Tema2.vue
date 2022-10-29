@@ -29,37 +29,37 @@
         p.mb-5 La evolución del concepto de animación ha ido integrando tendencias en los últimos años, estas son:
         .tarjeta.tarjeta--verde.p-4.p-xl-5.mb-5(data-aos="fade-left")
           SlyderA(tipo="b")
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 De contratación
-                p #[b Especializada]: Las nuevas contrataciones a expertos en cada campo, estableciendo una diferencia entre el animador de espectáculos (cantantes, bailarines, actores…) y el de actividades turísticas y recreativas (guías turísticos, monitores deportivos o infantiles, presentadores de actividades).
-                p #[b Multifuncional]: Un animador que integre el manejo de un arte o conocimiento especializado en áreas de cultura, recreación, tiempo libre y educación.
-                p #[b Involucramiento]: Actividades que permiten integrar a personal ajeno a la animación, pero que complementa un espacio con entretenimiento, por ejemplo, un show de barismo.
+                p #[b Especializada]: las nuevas contrataciones a expertos en cada campo, estableciendo una diferencia entre el animador de espectáculos (cantantes, bailarines, actores…) y el de actividades turísticas y recreativas (guías turísticos, monitores deportivos o infantiles, presentadores de actividades).
+                p #[b Multifuncional]: un animador que integre el manejo de un arte o conocimiento especializado en áreas de cultura, recreación, tiempo libre y educación.
+                p #[b Involucramiento]: actividades que permiten integrar a personal ajeno a la animación, pero que complementa un espacio con entretenimiento, por ejemplo, un show de barismo.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema2/img2.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 Tecnológica
                 p Animación con base en inteligencia artificial.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema2/img3.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 Organizacional
                 p Actividades que incluyen animación para pausas activas en el trabajo o actividades #[i indoor] y #[i outdoor] para desarrollo personal de los empleados.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema2/img4.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 Socio-comunitaria
                 p Actividades de animación para plantear y solucionar situaciones en la comunidad, ya sea de localidad u organizaciones sociales y gubernamentales.
               .col-xl-8
                 figure
                   img(src='@/assets/curso/tema2/img5.png')
-            .row
+            .row.m-1
               .col-xl-4.mb-4.mb-mb-0
                 h4 Sostenibilidad
                 p Implica la ética empresarial, desestacionalización, respeto hacia la naturaleza y los entornos donde se dan las actividades.
@@ -111,7 +111,7 @@
             .col-lg-10
               p.mb-0 Es así como la Animación Turística, de acuerdo con la Organización Mundial de Turismo (1985), se define como: #[b “Toda acción realizada en o sobre un grupo, una colectividad o un medio, con la intención de desarrollar la comunicación y garantizar la vida social”].
         p.text-center.mb-5 Esto en funciones se traduce como:
-    SlyderF.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-left")
+    SlyderF.mb-5(columnas="col-10 col-md-6 col-xl-4")(data-aos="fade-left")
       .tarjeta.color-secundario.p-4
         .row.justify-content-center.mb-3
           .col-12
@@ -237,7 +237,7 @@
               | Videos de instrucción, mapas regionales, entrevistas de personas, fotos, ayuda gráfica.
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
-              | Guión previo de alegorías, pasos de danza, tiempos asignados.
+              | Guion previo de alegorías, pasos de danza, tiempos asignados.
             li 
               i.fas.fa-location-arrow(style="color: #FF6D4B")
               | Vestimenta y accesorios organizados en bolsas y por actor.
@@ -283,19 +283,19 @@
             img(src='@/assets/curso/tema2/img18.png', style="width: 450px").m-auto
     p.mb-5 La animación se estructura con base en técnicas y métodos propios de la recreación y está relacionada con dinámicas de grupo que se aplican perfectamente en los contextos turísticos de:
     .row.justify-content-center(data-aos="fade-right")
-      .col-lg-3.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img7.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Cultura]
-      .col-lg-3.mb-4.mb-lg-0
+      .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img8.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Patrimonio material e inmaterial]
-      .col-lg-3
+      .col-10.col-md-7.col-lg-3
         .tarjeta-avatar
           img(src='@/assets/curso/tema2/img9.svg' alt='AvatarTop')
           .tarjeta.color-primario

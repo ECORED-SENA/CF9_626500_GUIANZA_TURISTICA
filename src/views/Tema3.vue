@@ -7,15 +7,15 @@
       .titulo-principal__numero
         span(style="color:#FFF") 3
       h1 Actividades experienciales
-    p.mb-5 La animación se estructura con base en técnicas y métodos propios de la recreación y está relacionada con dinámicas de grupo que se aplican perfectamente en los contextos turísticos de:
+    p.mb-5 El turismo experimental tiene como objetivo promover vivencias al turista que satisfagan y den significado a su viaje. Los expertos dan dos aspectos claves a este tipo de turismo:
     .row.justify-content-center.mb-5
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0(data-aos="fade-right")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img1.svg' alt='AvatarTop')
           .tarjeta.color-primario
             .text-white.p-4
               p.text-center #[b Satisfacción]
-      .col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-10.col-md-7.col-lg-3.mb-4.mb-lg-0(data-aos="fade-left")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img2.svg' alt='AvatarTop')
           .tarjeta.color-primario
@@ -87,9 +87,9 @@
                 figure
                   img(src='@/assets/curso/tema3/img16.svg', style="width: 110px").m-auto
               .col-12.p-3.bg-color17
-                p.text-center.mb-0 #[b Después]: recordacion y satisfacción
+                p.text-center.mb-0 #[b Después]: recordación y satisfacción
     p.mb-5 Finamente, al diseñar actividades de experiencia para viajeros, SERNATUR (2017) define los siguientes pasos en el proceso:
-    SlyderF(columnas="col-lg-6 col-xl-4")(data-aos="fade-right")
+    SlyderF(columnas="col-9 col-md-6 col-xl-4")(data-aos="fade-right")
       .tarjeta-avatar
         img(src='@/assets/curso/tema3/img6.svg' alt='AvatarTop')
         .tarjeta.color-primario2
